@@ -160,23 +160,6 @@ header{
     background: linear-gradient(90deg, transparent, var(--red));
     background-repeat: no-repeat;
 }
-
-/* about-me */
-/* .about-me{
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQLbvWGTFQh6OGWPfkLx2xBS_OP3oZJzQubA&usqp=CAU') no-repeat center;
-    background-size: cover;
-    padding: 50px 0px;
-} */
-/* .skills-wrap{
-    padding: 0 20px;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, .1);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-}
-.skill{
-    padding: 5px;
-} */
 .projects-items__wrap{
     flex-wrap: wrap;
     margin: 25px 0;
@@ -430,4 +413,9 @@ footer{
     100%{
         stroke-dashoffset: 80;
     }
+}
+
+/* MEDIA  */
+@media(max-width: 575px){
+
 }
